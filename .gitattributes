@@ -1,0 +1,3 @@
+*.java linguist-language=Java
+*.fxml linguist-language=XML
+*.css linguist-language=CSS
