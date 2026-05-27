@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="scene1pane" fx:id="scene1pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+   	  <ImageView fx:id="background" fitHeight="300.0" fitWidth="400.0" layoutX="0.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnPoo" disable="true" layoutX="156.0" layoutY="249.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="35.0" styleClass="btnPoop" />
+      <Button fx:id="btnPoo1" disable="true" layoutX="296.0" layoutY="213.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="35.0" styleClass="btnPoop" />
+   	  <Button id="btnFeed" fx:id="btnUpperFeed" layoutX="262.0" layoutY="16.0" mnemonicParsing="false" onAction="#feed" prefHeight="28.0" prefWidth="50.0" styleClass="btnFeed" />
+      <Button id="btnPlay" fx:id="btnUpperPlay" layoutX="338.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToGame" prefHeight="31.0" prefWidth="50.0" styleClass="btnPlay" />
+      <ImageView fx:id="pers" fitHeight="127.0" fitWidth="161.0" layoutX="31.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         </ImageView>
+      <Button fx:id="btnUpperClean" layoutX="11.0" layoutY="8.0" mnemonicParsing="false" onAction="#clean" prefHeight="43.0" prefWidth="40.0" styleClass="btnClean"  />
+      <Button fx:id="btnHungry" disable="true" layoutX="262.0" layoutY="265.0" mnemonicParsing="false" opacity="0.44" prefHeight="28.0" prefWidth="50.0" styleClass="btnHungry"  />
+      <ProgressBar fx:id="progressHungry" layoutX="260.0" layoutY="49.0" opacity="0.5" prefHeight="12.0" prefWidth="53.0" progress="1.0" styleClass="progress"  />
+      <ProgressBar fx:id="progressHappy" layoutX="337.0" layoutY="49.0" opacity="0.5" prefHeight="12.0" prefWidth="53.0" progress="1.0" styleClass="progress"  />
+      <ProgressBar fx:id="progressLife" layoutX="85.0" layoutY="49.0" opacity="0.5" prefHeight="12.0" prefWidth="53.0" progress="1.0" styleClass="progress"  />
+      <ProgressBar fx:id="progressClean" layoutX="11.0" layoutY="49.0" opacity="0.5" prefHeight="12.0" prefWidth="53.0" progress="1.0" styleClass="progress"  />
+      <Button fx:id="btnDirty" layoutX="11.0" layoutY="248.0" mnemonicParsing="false" opacity="0.44" prefHeight="43.0" prefWidth="40.0" styleClass="btnDirty"  />
+      <Button fx:id="btnUpperMedicine" layoutX="97.0" layoutY="8.0" mnemonicParsing="false" onAction="#givePills" opacity="0.5" prefHeight="42.0" prefWidth="29.0" styleClass="btnMed"  />
+      <Button fx:id="btnSad" disable="true" layoutX="338.0" layoutY="263.0" mnemonicParsing="false" opacity="0.3" prefHeight="31.0" prefWidth="50.0" styleClass="btnSad"  />
+      <Button fx:id="btnIllness" disable="true" layoutX="86.0" layoutY="266.0" mnemonicParsing="false" opacity="0.43" styleClass="btnIll"  />
+      <Button fx:id="btnInfos" layoutX="174.0" layoutY="18.0" mnemonicParsing="false" onAction="#switchToStates" prefHeight="25.0" prefWidth="55.0" styleClass="btnInfo"  textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font></Button>
+      
+      
+   </children>
+</AnchorPane>

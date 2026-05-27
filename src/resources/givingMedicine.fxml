@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.TreatmentController">
+   <children>
+      <ImageView fx:id="background" fitHeight="300.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="perImageView" fitHeight="150.0" fitWidth="200.0" layoutX="161.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="medImageView" fitHeight="104.0" fitWidth="107.0" layoutX="46.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
