@@ -1,3 +1,6 @@
 *.java linguist-language=Java
-*.fxml linguist-language=XML
+*.fxml linguist-detectable=false
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.eps linguist-detectable=false
 *.css linguist-language=CSS
